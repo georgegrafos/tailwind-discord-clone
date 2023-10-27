@@ -38,3 +38,7 @@ Builds the app for production to the `build` folder.
 
 The build is minified and the filenames include the hashes.
 
+### `npm run deploy`
+
+Deploys the project to GitHub Pages.
+
