@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*, body {
+  font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@layer components {
+  .sidebar-icon {
+      @apply relative flex items-center justify-center h-12 w-12 mx-auto
+      bg-white dark:bg-gray-700 hover:bg-purple-500 dark:hover:bg-purple-500
+      dark:text-gray-100 text-black hover:text-white
+      rounded-3xl hover:rounded-xl
+      transition-all duration-300 ease-out cursor-pointer;
+    }
+
+  .sidebar-icon.active {
+    @apply bg-purple-500 text-white rounded-xl;
+  }
+
+  .sidebar-tooltip {
+    @apply absolute w-auto p-2 m-2 min-w-max left-14
+            rounded-md shadow-lg
+            text-black bg-white
+            dark:text-white dark:bg-gray-900
+            text-sm font-bold
+            transition-all duration-100 scale-0 origin-left
+  }
+
+  .sidebar-hr {
+    @apply bg-gray-400 dark:bg-gray-800
+              border border-gray-400 dark:border-gray-800 rounded-full
+              mx-auto mb-2 w-8;
+  }
+}
