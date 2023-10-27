@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.39872b62.css",
-    "main.js": "/static/js/main.5a0e7114.js",
-    "index.html": "/index.html",
-    "main.39872b62.css.map": "/static/css/main.39872b62.css.map",
-    "main.5a0e7114.js.map": "/static/js/main.5a0e7114.js.map"
+    "main.css": "/tailwind-discord-clone/static/css/main.39872b62.css",
+    "main.js": "/tailwind-discord-clone/static/js/main.5a0e7114.js",
+    "index.html": "/tailwind-discord-clone/index.html",
+    "main.39872b62.css.map": "/tailwind-discord-clone/static/css/main.39872b62.css.map",
+    "main.5a0e7114.js.map": "/tailwind-discord-clone/static/js/main.5a0e7114.js.map"
   },
   "entrypoints": [
     "static/css/main.39872b62.css",
