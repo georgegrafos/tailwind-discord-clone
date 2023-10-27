@@ -4,6 +4,8 @@ This is a simple Discord UI clone using React and Tailwind CSS.\
 The purpose of this project was to familiarize myself with Tailwind CSS.\
 It was started following this video from Fireship: https://www.youtube.com/watch?v=pfaSUYaSgRo.
 
+[Live demo](https://georgegrafos.github.io/tailwind-discord-clone/)
+
 # Screenshots
 
 ### Dark Mode
