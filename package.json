@@ -1,5 +1,6 @@
 {
   "name": "discord-tailwind-clone",
+  "homepage": "https://georgegrafos.github.io/tailwind-discord-clone/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
